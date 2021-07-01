@@ -85,7 +85,7 @@ const App = () => {
           }
         />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/ecomv2">
             <Products products={products} addProduct={addProduct} />
           </Route>
           <Route exact path="/basket">
