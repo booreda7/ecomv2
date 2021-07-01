@@ -6,7 +6,7 @@ const Confirmation = ({ orderInfo, orderError }) => {
     return (
       <div className="confirmation">
         <Typography variant="h5">Error: {orderError}</Typography>
-        <Button component={Link} variant="outlined" type="button" to="/">
+        <Button component={Link} variant="outlined" type="button" to="ecomv2/">
           Back to home
         </Button>
       </div>
