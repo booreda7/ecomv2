@@ -15,13 +15,15 @@ import logo from './images.png'
             <Toolbar>
               <Typography
                 component={Link}
-                to="/"
+                to="/ecomv2"
                 variant="h6"
                 className="custom-title"
                 color="inherit"
               >
                 <img
                   src={logo}
+                  component={Link}
+                  to="/" 
                   alt="Shopping logo"
                   height="20px"
                   width='100px'

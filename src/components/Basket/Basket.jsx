@@ -12,7 +12,7 @@ const Banner = () => {
             <Typography className="title" variant="h1">
               Basket is empty press Shopping for adding new products
             </Typography>
-            <Button className="shopping-button" component={Link} to="/" size='large'>
+            <Button className="shopping-button" component={Link} to="/ecomv2" size='large'>
               Shopping
             </Button>
           </Grid>
